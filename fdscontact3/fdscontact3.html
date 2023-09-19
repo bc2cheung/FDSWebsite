@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<html>
+<head>
+<title>fds Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+<link rel="stylesheet" href="c:00newdesigns/FDSWebsite/fdscontact3/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+
+<!-----NavigationBar---->
+<section id="nav-bar">
+ <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="images/fdslogo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+       
+       <a class="nav-link" href="c:00newdesigns/FDSWebsite/fdswebmain/index.html">HOME</a></li>
+      <li class="nav-item">
+       <a class="nav-link" href="c:00newdesigns/FDSWebsite/fdsproducts2/fdsproducts2.html#products">OUR PRODUCTS</a> 
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="c:00newdesigns/FDSWebsite/fdsservices2/fdsservices2.html#services">SERVICES</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="c:00newdesigns/FDSWebsite/fdsproducts/fdsproducts.html#feature">WHY US</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="c:00newdesigns/FDSWebsite/fdscontact3/fdscontact3.html#footer">CONTACT</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>   
+</section> 
+
+<section id="contact">
+   <div class="container mt-5">
+        <h1>General Inquiries</h1>
+<!--        <form class="row g-3" 
+        action="https://formsubmit.co/7c3b6fbd1258a88371558a9ea991fa14" method="POST">
+ -->
+          <form class="row g-3" 
+        action="https://formspree.io/f/mnqkvwey" method="POST">   
+            
+          <!-- Honeypot -->
+    <!--
+          <input type="text" name="_honey" style="display: none;">
+    -->
+          <!-- Disable Captcha -->
+    <!--
+          <input type="hidden" name="_captcha" value="false">
+    -->
+          <input type="hidden" name="_next" value="https://bc2cheung.github.io/fdswebtest/success.html" >
+
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" name="name" id="firstName" required>
+          </div>
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
+          </div>
+          <div class="col-md-8">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input type="email" class="form-control" name="email" id="emailInfo" required>
+          </div>
+          <div class="col-md-4">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (415) 867-5309">
+          </div>
+          <div class="col-md-12">
+            <label for="comments" class="form-label">Comments, questions?</label>
+            <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+    </div>
+   <!--
+    <div class="container mt-5">
+        <h1>General Inquiries</h1>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" required>
+          </div>
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" required>
+          </div>
+  
+          <div class="col-md-8">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="emailInfo" required>
+          </div>
+          <div class="col-md-4">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (650) 799-4167">
+          </div>
+          
+    
+          <div class="col-md-12">
+            <label for="comments" class="form-label">Comments, questions?</label>
+            <textarea class="form-control" id="comments" rows="3" required></textarea>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+    </div>
+    -->
+</section>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    -->
+   
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+ 
+
+<!-----------Get in Touch-------->
+<!--
+<section id="contact">
+ <div class="container">
+    <h1>General Inquiries</h1>
+    <div class="row">
+    <div class="col-md-6">
+    <form class="contact-form">
+    <div class="form-group">
+    <input type="text" class="form-control" placeholder="Name">    
+    </div>
+    <div class="form-group">
+    <input type="number" class="form-control" placeholder="Phone">    
+    </div>
+    <div class="form-group">
+    <input type="email" class="form-control" placeholder="Email">    
+    </div>
+    <div class="form-group">
+    <textarea class="form-control" rows="4" placeholder="Comments"></textarea>    
+    </div>
+    <button type="submit" class="btn btn-primary">SUBMIT</button>
+    </form>
+    </div>
+    <div class="col-md-6 contact-info">
+       
+        <div class="follow"><b>Address:</b><i class="fa fa-map-marker"></i>1650 S. Amphlett Blvd. Suite 108,<br>San Mateo, CA, 94402</div>
+        <div class="follow"><b>Phone:</b><i class="fa fa-phone"></i>650-799-4167</div>
+        <div class="follow"><b>Email:</b><i class="fa fa-envelope-o"></i>rcheung@fleetds.com</div>
+ -->    
+   <!--     
+        <p>1650 S. Amphlett Blvd. Suite 108,<br>San Mateo, CA, 94402<i class="fa fa-map-marker"></i></p>
+    <p>www.fleetdatasystems.com<i class="fa fa-paper-plane"></i></p>
+    <p>650-799-4167 <i class="fa fa-phone"></i></p>
+    -->
+    <!--
+        <div class="follow"><label><b>Get Social:</b></label>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-youtube-play"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+        </div>
+    -->
+ <!--   
+    </div>
+    </div>
+ </div>
+</section>
+-->
+
+<!-----------Footer------->
+    <section id="footer">
+       <!--
+        <div class="container text-center">
+            <p>Made With <i class="fa fa-heart-o"></i> by <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1">Easy Tutorials</a></p>
+        </div>
+        -->
+    </section>
+    <!------Footer End------>
+    
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+	
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*----------Navigation-------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-------Slider------*/
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+    color: #fff;
+    font-size: 42px;
+}
+
+
+/*------------Get in Touch--------*/
+#contact
+{
+    background: #efefef;        /*#efefef*/
+    padding-top: 40px;
+    padding-bottom: 60px;
+    
+    color: #000;    
+}
+.contact-form
+{
+    padding: 15px;
+}
+
+.form-label
+{
+    border-radius: 0 !important; 
+    border: none !important;    
+}
+    
+
+.form-control
+{
+    border: 1px solid #009968;
+    border-radius: 2px;
+    box-sizing: border-box;    
+}
+
+.form-control2
+{  
+    border: 2px solid #009968;
+    border-radius: 2px;
+    box-sizing: border-box;    
+}
+
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+  background: #fff;
+    padding: 10px;
+    margin: 15px;
+/*    border: 2px solid #009968;
+    border-radius: 8px;
+    box-sizing: border-box;   */ 
+}
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+/*--------Footer-------*/
+#footer
+{
+   background: #333;
+    color: #fff;
+    padding: 12px;
+}
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}
+
+
+
+
+
+
+
+
